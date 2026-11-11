@@ -1,0 +1,8 @@
+firstname = input("Enter first name: ")
+surname = input("Enter last name: ")
+section = input("Enter section: ")
+favsub = input("Enter favorite subject: ")
+chcount = len(firstname + surname)
+name = firstname + " " + surname
+
+print("\nFormatted Output:","\nName:",name,"\nSection:",section,"\nFavorite subject:",favsub,"\nCharacter Count:",chcount)

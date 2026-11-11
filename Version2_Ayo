@@ -1,0 +1,8 @@
+firstname = input("Enter first name: ")
+surname = input("Enter last name: ")
+section = input("Enter section: ")
+favsub = input("Enter favorite subject: ")
+chcount = len(firstname + surname)
+name = (firstname.strip() + " " + surname.strip()).title()
+
+print("\nFormatted Output:","\nName:",name,"\nName Code:",name.upper(),"\nSection:",section.upper(),"\nFavorite subject:",favsub.title(),"\nCharacter Count:",chcount)
